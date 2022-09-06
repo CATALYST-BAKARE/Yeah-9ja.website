@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DM Sans;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  padding-top: 100px;
+  background: -webkit-radial-gradient(top right, circle, #FFFCEB 20%,
+  rgba(255, 251, 229, 0) 45%);
+}
+#nav-bar{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background: inherit;
+}
+.navbar-brand img{
+  width: min(50vw, 80px);
+}
+.Download-btn{
+background: #FFD500;
+border-radius: 15px;
+padding: 15px 32px;
+font-weight: 500;
+font-size: 18px;
+transition: 0.15s;
+}
+.Download-btn:hover{
+  border: none!important;
+  color: white;
+  background-color: #FFD500;
+
+}
+.navbar-nav li{
+}
+.navbar-nav li a{
+  color: black;
+  font-size: 20px;
+  transition: 0.15s;
+  font-weight: 500;
+}
+  .navbar-nav li a:hover, .navbar-nav li a:active{
+    color: white;
+    background-color: #FFD500;
+    border-radius: 4px;
+}
+.header-text,
+.S2-header-text{
+  font-family: 'Merriweather', serif;
+  font-weight: 500;
+  font-stretch: condensed;
+}
+.first-section-text{
+  max-width: 80vmax;
+}
+.section-one{
+  background-image: url(/Thumbnails/Group\ 87ng);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+ 
+}
+.section-one-text{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+} 
+.Get-started{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.side-img{
+  background-image: url(/Thumbnails/Group\ 237834.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 900px;
+  max-width: 100%;
+  margin-top: -120px;
+  background-position: center;
+}
+.topic-text{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+}
+.S2-header-text::before{
+  content: '';
+  display: block;
+  background: #FFD500;
+  height: 5px;
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.S3-header-text::before{
+content: '';
+background: #FFD500;
+height: 5px;
+width: 100px;
+border-radius: 50px;
+margin-bottom: 15px;
+display: block;
+}
+.Loan-text,
+.Loan-Header{
+max-width: 200px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+}
+.Loan-border{
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 40px;
+margin-top:20px ;
+text-align: center;
+max-width: 400px;
+padding: 10px 20px;
+}
+.section-three,
+.section-4,
+.section-two{
+  margin-bottom:50px ;
+}
+
+.ios-button,
+.Android-button{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-size: 12px;  
+  border-radius: 16px;
+  padding: 6px 10px;
+  white-space: nowrap;
+}
+.Android-button{
+  margin-left:10px ;
+}
+.apple-icon{
+  max-width: 40px;
+}
+.Thumbs-up{
+  max-width: 400px;
+  margin-top: -150px;
+}
+.S4-container{
+  background-color: #FFD500;
+  border-radius: 10px;
+}
+footer{
+  background: #1A1A1A;
+  height: 60vh;
+}
+.footer-header{
+font-family: 'DM Sans';
+padding-top: 30px;
+}
+.footer-text{
+font-family: 'DM Sans';
+font-style: normal;
+font-size: 20px;
+line-height: 22px;
+padding-bottom: 30px;
+}
+hr{
+  border-top: 1px solid white;
+}
+.icon{
+border: 1.5px solid #FFF5F5;
+border-radius: 50%;
+padding: 4px 4px;
+}
+.About-section{
+  background-color: #FFD500;
+}
+.copyright{
+  background-color: #333333;
+}
+
+@media (max-width:600px) {
+  .side-img{
+    height: 500px;
+    margin: 0px auto;
+    margin-left: -30px
+  }
+  .Loan-border{
+    max-width: 300px;
+    height: 300px;
+    margin-right:20px ;
+}
+.Loan-text,
+.Loan-Header{
+max-width: 500px;
+padding-top: 20px;
+}
+.ios-button{
+  
+}
+.S3-header-text::before{
+content: '';
+display: none;
+}
+.Thumbs-up{
+  max-width: 300px;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.footer-header{
+  font-size: 30px;
+  padding-top: 20px;
+}
+.footer-text{
+  font-size: 16px;
+}
+.footer-logo{
+  width: 70px;
+}
+.navbar-nav li a:hover{
+transform: none;
+background-color: #FFD500;
+color: white;
+padding: 4px;
+}
+}
